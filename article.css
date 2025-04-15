@@ -148,7 +148,7 @@
     right: -40px;
     z-index: 1;
     border-radius: 10px;
-    /* display: none; */
+    display: none;
 }
 
 .textbox>p {
