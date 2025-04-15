@@ -3,6 +3,10 @@ const thelogo = document.querySelector('.thelogo');
 const textbox = document.querySelector('.textbox');
 
 thelogo.addEventListener('click', (e) => {
-    textbox.style.display = (textbox.style.display === 'flex') ? 'none' : 'flex';
+    if (textbox.style.display === 'flex') {
+        textbox.style.display = 'none';
+    } else {
+        textbox.style.display = 'flex';
+    }
 });
 
